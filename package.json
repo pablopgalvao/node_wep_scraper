@@ -1,0 +1,14 @@
+{
+  "name": "testes-diversos",
+  "version": "1.0.0",
+  "description": "Testes de Paginas WEB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pablo Galvao",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
