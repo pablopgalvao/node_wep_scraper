@@ -4,11 +4,17 @@
   "description": "Testes de Paginas WEB",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/app.js",
+    "start2": "node src/app2.js"
   },
   "author": "Pablo Galvao",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
+    "axios": "^1.2.1",
+    "cheerio": "^1.0.0-rc.12",
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.0",
+    "psl": "^1.9.0",
+    "request-promise": "^4.2.6"
   }
 }
