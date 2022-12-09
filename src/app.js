@@ -25,11 +25,13 @@ var subdom = {
 
 
 Object.keys(subdom).forEach(function(item) {
-    console.log(item + " - " + subdom[item])
-    //console.log(`https://budweiser.com/es-ar/fwc22` + subdom[item] )
+    //console.log(item + " - " + subdom[item])
+    console.log(`https://budweiser.com/` + subdom[item] )
+}).then(url=>{
+    
 })
 
-
+/* 
 const fetchData = async(url) => {
     const result = await axios.get(url)
     return result.data
@@ -58,8 +60,8 @@ const main = async () => {
     console.log('SITE ROBOTS:  \n' + robots + '\n') */
     //console.log(metadescription,metatitle,url,site_name, robots)
     
-    const data = {Heading_1: h1,metadescription,metatitle,url,site_name, robots}
-    budweiser.push(data)
+    //const data = {Heading_1: h1,metadescription,metatitle,url,site_name, robots}
+    //budweiser.push(data)
     //console.log(budweiser)
-}
-main()
+//}
+//main() */
